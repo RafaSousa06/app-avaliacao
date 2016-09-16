@@ -1,0 +1,38 @@
+doctype html
+html(ng-app="linkedinAngularApp")
+  head
+    title My Teste
+    <!-- bootstrap min -->
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    <!-- bootstrap theme min -->
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css')
+    <!-- import font goole -->
+    link(rel='stylesheet' , href='https://fonts.googleapis.com/css?family=Josefin+Sans')
+    <!-- script linkedin -->
+    script(type="text/javascript", src="./lib/jquery-1.9.0.min.js") 
+    <!-- script AngularJs -->
+    script(type="text/javascript", src="./lib/angular.min.js") 
+    <!-- script bootstrap-tpls -->
+    script(type="text/javascript", src="./lib/ui-bootstrap-tpls-0.11.0.min.js") 
+    <!-- script service linkedin -->
+    script(type="text/javascript", src="./service/serviceLinkedin.js") 
+    <!-- script API Linkedin -->
+    script(type="text/javascript", src="http://platform.linkedin.com/in.js")
+      - var apiKey = "\napi_key: 77ag5syuok4pa0\n";
+      !{apiKey}
+
+      - var onload = "onLoad: onLinkedInLoad\n";
+      !{onload}
+
+      - var authorize = "authorize: true\n";
+      !{authorize}
+
+    <!-- script app.js -->
+    script(type="text/javascript", src="./app.js")
+    <!-- script controller -->
+    script(type="text/javascript", src="./controller/controllers.js")
+    <!-- script linkedin -->
+    script(type="text/javascript", src="./linkedin.js")
+  body(ng-controller="AppCtrl", id="appBody")
+    <!-- importa as views -->
+    ng:view

@@ -1,0 +1,24 @@
+<!-- my style -->
+link(rel='stylesheet', href='../style/style.css')
+header
+  nav
+    div.navbar.navbar-default
+      div.logoMagazine
+        img(src='./img/logoMagazineLuiza.fw.png')
+      div.author
+        by Rafael Sousa
+  section
+    div.container
+      div.col-lg-12
+        div.textAprentacao
+          - var app = 'Avaliação';
+          !{app}
+          - var magazine = 'Magazine luiza'
+          div.magazineLuiza
+            !{magazine}
+          div.row.pointer.btn-4
+            img(src='./img/logoIn.fw.png')
+          div.entrar.pointer
+            - var entrar = 'entrar';
+            script(type="in/Login")
+              !{entrar}

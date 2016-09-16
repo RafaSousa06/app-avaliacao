@@ -1,0 +1,139 @@
+doctype html
+html
+  head
+    title Person
+    <!-- bootstrap min -->
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    <!-- bootstrap theme min -->
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css')
+    <!-- my style -->
+    link(rel='stylesheet', href='./style/stylePerfil.css')
+    <!-- import font goole -->
+    link(rel='stylesheet' , href='https://fonts.googleapis.com/css?family=Josefin+Sans')
+  body
+    header
+      nav
+        div.nav
+          div.logoIn
+            img(src='./img/logoInPerfil.fw.png')
+          div.author
+            - var authorName = 'Logout'
+            !{authorName}
+    section
+      div.bgPerfil
+        div.row
+          div.imgPerfil
+            img(src='./img/imgPerfil.jpg', width='86').img-circle.borderImg
+        div.row
+          div.nomePerfil
+            - var name = "Rafael Sousa";
+            !{name} 
+          div.cargo
+            - var cargo = "Coordenador WEB";
+            !{cargo}
+        div.row
+          div.numberConnections
+            - var number = "18 Connections";
+            !{number}
+          div.dadosLinkedin
+            - var dadosLinkedin = "Dados Linkedin";
+            !{dadosLinkedin}
+    article
+      div.row
+        div.textPessoas
+          - var textBody = "Pessoas que já visitaram essa pagina";
+          !{textBody}
+      div.row
+        div.col-lg-12
+          div.col-lg-3
+            div.boxPerson
+              div.row
+                div.detalheBox
+              img(src="./img/imgPerfil.jpg", width="150").img-circle.imgBox
+              div.row
+                div.nomePerfilBox
+                  - var name = "Rafael Sousa";
+                  !{name} 
+              div.row
+                div.cargoBox
+                  - var cargoBox = "Coordenado Web";
+                  !{cargoBox}
+              div.row
+                div.col-lg-12
+                  div.col-lg-6
+                    button(type="button", class="btn  btn-info btnDefault")
+                      - var textBtnPerfil = 'ver perfil';
+                      !{textBtnPerfil}
+                  div.col-lg-6
+                    button(type="button", class="btn  btn-default btnDefault")
+                      - var textBtnPerfil = 'excluir';
+                      !{textBtnPerfil}
+          div.col-lg-3
+            div.boxPerson
+              div.row
+                div.detalheBox
+              img(src="./img/imgPerfil.jpg", width="150").img-circle.imgBox
+              div.row
+                div.nomePerfilBox
+                  - var name = "Rafael Sousa";
+                  !{name} 
+              div.row
+                div.cargoBox
+                  - var cargoBox = "Coordenado Web";
+                  !{cargoBox}
+              div.row
+                div.col-lg-12
+                  div.col-lg-6
+                    button(type="button", class="btn  btn-info btnDefault")
+                      - var textBtnPerfil = 'ver perfil';
+                      !{textBtnPerfil}
+                  div.col-lg-6
+                    button(type="button", class="btn  btn-default btnDefault")
+                      - var textBtnPerfil = 'excluir';
+                      !{textBtnPerfil}
+          div.col-lg-3
+            div.boxPerson
+              div.row
+                div.detalheBox
+              img(src="./img/imgPerfil.jpg", width="150").img-circle.imgBox
+              div.row
+                div.nomePerfilBox
+                  - var name = "Rafael Sousa";
+                  !{name} 
+              div.row
+                div.cargoBox
+                  - var cargoBox = "Coordenado Web";
+                  !{cargoBox}
+              div.row
+                div.col-lg-12
+                  div.col-lg-6
+                    button(type="button", class="btn  btn-info btnDefault")
+                      - var textBtnPerfil = 'ver perfil';
+                      !{textBtnPerfil}
+                  div.col-lg-6
+                    button(type="button", class="btn  btn-default btnDefault")
+                      - var textBtnPerfil = 'excluir';
+                      !{textBtnPerfil}
+          div.col-lg-3
+            div.boxPerson
+              div.row
+                div.detalheBox
+              img(src="./img/imgPerfil.jpg", width="150").img-circle.imgBox
+              div.row
+                div.nomePerfilBox
+                  - var name = "Rafael Sousa";
+                  !{name} 
+              div.row
+                div.cargoBox
+                  - var cargoBox = "Coordenado Web";
+                  !{cargoBox}
+              div.row
+                div.col-lg-12
+                  div.col-lg-6
+                    button(type="button", class="btn  btn-info btnDefault")
+                      - var textBtnPerfil = 'ver perfil';
+                      !{textBtnPerfil}
+                  div.col-lg-6
+                    button(type="button", class="btn  btn-default btnDefault")
+                      - var textBtnPerfil = 'excluir';
+                      !{textBtnPerfil}

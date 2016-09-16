@@ -1,0 +1,58 @@
+body{
+	background-image:url(../img/bg.jpg);
+	font-family: 'Josefin Sans', sans-serif;
+	width:100%;
+}
+
+.navbar{
+	background: #0274B3;
+	padding: 10px;
+}
+
+.logoMagazine{
+	float:left;
+}
+
+.author{
+	float:right;
+	color:#fff;
+	font-size:16px;
+	cursor: pointer;
+}
+
+.textAprentacao
+{
+	text-align:center;
+	font-size:85px;
+	width:300px;
+	position: relative;
+	margin:0 auto;
+	top:73px;
+	color:#fff;
+}
+.magazineLuiza{
+	width:100%;
+	color:#fff;
+	font-size:28px;
+	text-align:left;
+	margin-top:-28px;
+}
+
+.logoLinkedin{
+	width:100%;
+}
+
+.entrar {
+	color:#fff;
+	font-size:38px;
+	margin-top: -10px;
+	letter-spacing: 5px;
+
+}
+
+.pointer{
+	cursor:pointer;
+}
+
+
+

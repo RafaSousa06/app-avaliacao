@@ -1,0 +1,52 @@
+link(rel='stylesheet', href='../style/stylePerfil.css')
+header
+nav
+  div.nav
+    div.logoIn
+      img(src='./img/logoInPerfil.fw.png')
+    div.author(ng-click="logoutLinkedIn()")
+      - var authorName = 'Logout'
+      !{authorName}
+section
+div.bgPerfil
+  div.row
+    div.imgPerfil
+      img(src='{{userprofile.pictureUrl}}', width='86').img-circle.borderImg
+  div.row
+    div.nomePerfil
+      - var name = "";
+      {{userprofile.firstName + ' ' + userprofile.lastName}}
+    div.cargo
+      {{userprofile.industry}}
+  div.row
+    div.numberConnections
+      - var number = "";
+      !{number}
+    div.dadosLinkedin
+      - var dadosLinkedin = "Dados Linkedin";
+      !{dadosLinkedin}
+article
+div.row
+  div.textPessoas
+    - var textBody = "Pessoas que já visitaram essa pagina";
+    !{textBody}
+div.row
+  div.col-lg-12
+    div.col-lg-3(ng-repeat='u in usuarios')
+      div.boxPerson
+        div.row
+          div.detalheBox
+        img(src="{{u.pictureUrl}}", width="150").img-circle.imgBox
+        div.row
+          div.nomePerfilBox
+            {{u.firstName}}
+        div.row
+          div.cargoBox
+            {{u.industry}}
+        div.row
+          div.col-lg-12
+            div.col-lg-12
+              button(type="button", class="btn  btn-default btnDefault", ng-click="deleteUsers(u._id)")
+                - var textBtnPerfil = 'excluir';
+                !{textBtnPerfil}
+    

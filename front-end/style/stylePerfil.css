@@ -1,0 +1,162 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	width:100%;
+	background-color: #F0F0F0;
+}
+
+
+.author{
+	float:right;
+	color:#fff;
+	font-size:22px;
+	cursor: pointer;
+}
+
+
+.logoLinkedin{
+	width:100%;
+}
+
+
+
+.pointer{
+	cursor:pointer;
+}
+
+.nav{
+	width:100%;
+	height:58px;
+	float:left;
+	padding:10px;
+	background-color: #888888;
+}
+
+.logoIn{
+	float:left;
+}
+
+.bgPerfil{
+	float:left;
+	width:100%;
+	height:260px;
+	background-image: url(../img/bgPerson.jpg);
+}
+
+.imgPerfil{
+	 width:85px;
+	 margin:0 auto;
+	 position: relative;
+	 top:70px;
+}
+
+.borderImg{
+	border:3px solid #fff; 
+}
+
+.numberConnections{
+	float:left;
+	color:#fff;
+	font-size:25px;
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+.dadosLinkedin{
+	float:right;
+	color:#fff;
+	font-size:25px;
+	margin-top: 40px;
+	margin-right: 50px;
+}
+
+.nomePerfil{
+	color:#FF9673;
+	text-align: center;
+	font-size:40px;
+	margin:0 auto;
+	width:300px;
+	text-indent: 5pt;
+	position: relative;
+	top:70px;
+	font-weight: 700;
+}
+
+.nomePerfilBox{
+	color:#333;
+	text-align: center;
+	font-size:30px;
+	margin:0 auto;
+	width:100%;
+	text-indent: 5pt;
+	position: relative;
+	top:6px;
+	font-weight: 700;
+}
+
+.cargo{
+	color:#fff;
+	text-align: center;
+	font-size:20px;
+	margin:0 auto;
+	width:300px;
+	text-indent: 5pt;
+	position: relative;
+	top:62px;
+	font-weight: 700;
+}
+
+.textPessoas{
+	width:450px;
+	font-size:25px;
+	color:#aaa;
+	text-align:center;
+	margin:0 auto;
+}
+
+.boxPerson{
+	width:262px;
+	height: 315px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+	background-color: #fff;
+	border-radius:10px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.imgBox{
+	width:150px;
+	float:left;
+	margin-left: 55px;
+}
+
+.detalheBox
+{
+	width:93px;
+	height:9px;
+	background-color: #F0F0F0;
+	float:left;
+	margin-top: 15px;
+	margin-bottom:10px;
+	border-radius:10px;
+	margin-left: 100px;
+}
+
+.cargoBox{
+	color:#0A2F3D;
+	text-align: center;
+	font-size:17px;
+	margin:0 auto;
+	width:100%;
+	text-indent: 5pt;
+	position: relative;
+	top:4px;
+	font-weight: 700;
+}
+
+.btnDefault{
+	top:22px;
+	width:100%;
+	position: relative
+}
+
